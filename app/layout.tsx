@@ -8,6 +8,7 @@ export default function RootLayout({
   return (
     <html lang="ru" className="dark bg-[#0c0d10] text-[#e8e9ec]">
       <head>
+        <meta name="yandex-verification" content="6028d703cb701a4e" />
         <title>Starda Casino официальный сайт | Старда Казино зеркало рабочее играть онлайн</title>
         <meta
           name="description"

@@ -1,0 +1,54 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+  body {
+    background-color: #0c0d10;
+    color: #e8e9ec;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  /* Mangled classes for Starda Casino layout */
+  .std4-container {
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .std4-btn-red {
+    background: linear-gradient(135deg, #e52338 0%, #c41326 100%);
+    color: #ffffff;
+    font-weight: 700;
+    transition: all 0.2s ease-in-out;
+  }
+  .std4-btn-red:hover {
+    background: linear-gradient(135deg, #ff2c44 0%, #db172c 100%);
+    box-shadow: 0 0 20px rgba(229, 35, 56, 0.45);
+    transform: translateY(-1px);
+  }
+
+  .std4-card-dark {
+    background-color: #15161c;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .std4-card-dark:hover {
+    border-color: rgba(229, 35, 56, 0.25);
+  }
+
+  /* Custom drawer navigation via pure CSS :target */
+  #starda-drawer:target {
+    display: flex;
+  }
+}

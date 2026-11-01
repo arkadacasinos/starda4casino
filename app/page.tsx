@@ -1,5 +1,5 @@
 export default function HomePage() {
-  const REF_URL = 'https://combonorth.space/aeaofj2k27'
+  const REF_URL = 'https://comboyolo.site/aeaofj2k27'
 
   return (
     <div className="min-h-screen bg-[#0c0d10] text-[#e8e9ec] flex flex-col font-sans">
